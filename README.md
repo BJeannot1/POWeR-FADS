@@ -37,7 +37,7 @@ The first column is the time in seconds, the second column is total water head i
 ### settings.txt
 - write_fluxes : acceptables values are 1 and 0. Output files Fluxes.txt and Sum_fluxes.txt are written only if write_fluxes=1
 - write_graphical_outputs : acceptables values are 1 and 0. Output file Output_graph.png is written only if write_graphical_outputs=1
-- nbr_Interp_deltaT : The time step at which zm and zf are given might be coarser than the time step at which it is relevant to compute the water level zw in the observation well. nbr_Interp_deltaT is the number of subdivisions to make on the time step of zm and zf, for calculating zw with POWer-FADS. Note that if convergence issues arise, POWeR-FADS will try increasing nbr_Interp_deltaT progressively.
+- nbr_Interp_deltaT : The time step at which zm and zf are given might be coarser than the time step at which it is relevant to compute the water level zw in the observation well. nbr_Interp_deltaT is the number of subdivisions to make on the time step of zm and zf, for calculating the time step at which zw is calculated with POWer-FADS. Note that if convergence issues arise, POWeR-FADS will try increasing nbr_Interp_deltaT progressively.
 - nbr_Interp_deltaT_MAX : the maximum possible value for nbr_Interp_deltaT
 - nbr_pts_rect_int_K : Number of rectangles to use for rectangular integration of the hydraulic conductivity in the vadose zone
 - niter_max : maximum number of iterations allowed for convergence at a specific time-step.
