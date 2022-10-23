@@ -43,7 +43,7 @@ The first column is the time in seconds, the second column is total water head i
 - niter_max : maximum number of iterations allowed for convergence at a specific time-step.
 - n_failmax : total number of times a set of niter_max iterations can be tried for reaching convergence at a specific-time step. Because POWeR-FADS works with a random relaxation factor from a convergence iteration to the next, convergence can be failed after niter_max iterations on the first try but not on the second one. After n_failmax attemps, the whole POWeR-FADS simulation is restarted from scratch, with an increased nbr_Interp_deltaT.
 - epsilon : convergence critetion, in meters.
-- Exchanges_well_matrix_through_well_bottom ; acceptables values are 1 and 0. If it is set to 1, exchanges between the well and the matrix through the bottom of the well are taken into account in the calculations.
+- Exchanges_well_matrix_through_well_bottom : acceptables values are 1 and 0. If it is set to 1, exchanges between the well and the matrix through the bottom of the well are taken into account in the calculations.
 - AveragingK : criterion stating if an arithmetic mean or geometric mean is to use when averaging hydraulic conductivities at the interface between the well and the media, in the case where the well exfiltrates water into the vadose zone. (0=arithmetic,1=geometric)
 - calc_auto_zw0 : critetion stating if the initial value of the water level in the well zw should be user-defined, or set automatically bi POWeR-FADS from initial values of zf and zm(0=user-defined,1=automatic)
 - value_zw0 : user-defined initial value of zw. If calc_auto_zw0=1, this argument is not taken into account by POWeR-FADS
