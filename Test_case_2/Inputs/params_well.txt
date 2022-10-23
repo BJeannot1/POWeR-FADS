@@ -1,0 +1,9 @@
+ztube(m) 20.8
+zsurf(m) 20.0
+zbot_f(m) 15.0
+zbot_m(m) 5.0
+rin(m) 0.1
+rout(m) 0.11
+rdrill(m) 0.31
+wdrill(-) 0.4
+DeltaE(coupling_length)(m) 0.1

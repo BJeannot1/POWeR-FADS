@@ -1,0 +1,4 @@
+Ks(m/s) 1.00E-05
+n(-) 2.0
+alpha(/m) 10.0
+K_unsat_mini(m/s) 1.0e-15

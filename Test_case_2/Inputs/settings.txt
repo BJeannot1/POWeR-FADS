@@ -1,0 +1,12 @@
+write_fluxes 1
+write_graphical_outputs 1
+nbr_Interp_deltaT 1
+nbr_Interp_deltaT_MAX 16
+nbr_pts_rect_int_K 10
+niter_max 40
+n_failmax 2
+epsilon 0.00001
+Exchanges_well_matrix_through_well_bottom 0
+AveragingK(0=arithmetic,1=geometric) 0
+calc_auto_zw0(0=no,user-defined,1=yes,auto) 0
+value_zw0(only_useful_ifcalc_auto_zw0=0) 15
