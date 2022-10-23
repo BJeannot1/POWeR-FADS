@@ -45,7 +45,7 @@ The first column is the time in seconds, the second column is total water head i
 - epsilon : convergence critetion, in meters.
 - Exchanges_well_matrix_through_well_bottom : acceptables values are 1 and 0. If it is set to 1, exchanges between the well and the matrix through the bottom of the well are taken into account in the calculations.
 - AveragingK : criterion stating if an arithmetic mean or geometric mean is to use when averaging hydraulic conductivities at the interface between the well and the media, in the case where the well exfiltrates water into the vadose zone. (0=arithmetic,1=geometric)
-- calc_auto_zw0 : critetion stating if the initial value of the water level in the well zw should be user-defined, or set automatically bi POWeR-FADS from initial values of zf and zm(0=user-defined,1=automatic)
+- calc_auto_zw0 : critetion stating if the initial value of the water level in the well zw should be user-defined, or set automatically by POWeR-FADS from initial values of zf and zm(0=user-defined,1=automatic)
 - value_zw0 : user-defined initial value of zw. If calc_auto_zw0=1, this argument is not taken into account by POWeR-FADS
 ### params_well.txt
 - ztube(m): altitude of the top of the tube of the well
