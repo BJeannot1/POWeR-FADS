@@ -29,7 +29,7 @@ For more details on the conceptual model and its undelrying hypotheses, and for 
     
     In the above command, "testcase" is the name of a folder containing an "Inputs" subfolder. The "Inputs" subfolder contains input files corresponding to the test case, as described below. An "Outptus" subfolder will be created in the "testcase" folder as a result of running POWeR-FADS, and outputs of POWeR-FADS will be saved in this subfolder.
     
-  For example : "python POWeR-FADS.py Test_case_1" and "python POWeR-FADS.py Test_case_2"  simulate respectively the synthetic test cases 1 and 2 presented in Jeannot et al.(submitted).
+  For example : "python POWeR-FADS.py Test_case_1" and "python POWeR-FADS.py Test_case_2"  simulate respectively the synthetic test cases 1 and 2 presented in Jeannot et al.(submitted). It is also possible to deal with several test cases in only one call to Power-FADS, by writing several command line arguments in sequence when calling the program. Example : python POWeR-FADS.py Test_case_1 Test_case_2"
     
   ## 3. Description of input files
 ### zm_zf.txt
