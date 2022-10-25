@@ -1,4 +1,4 @@
-# Program for Observation Well Representation in Fractured Aquifer Dual-continuum Simulations (POWeR-FADS)
+# Program for Observation Well Representation in Fractured Aquifer Dual-continuum Simulations
 This repository hosts the source code and example test cases for the Program for Observation Well Representation in Fractured Aquifer Dual-continuum Simulations (POWeR-FADS). This program, intended for use in the context of porous fractured aquifers, aims at simulating the water level in observation wells from fracture and matrix water heads outputed by dual-continuum hydrogeological models. 
 
 It is described more thoroughly in Jeannot et al.(submitted).
