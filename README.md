@@ -1,11 +1,11 @@
-# POWeR-FADS
-This repository hosts the source code and example test cases for POWeR-FADS. This program, intended for use in the context of porous fractured aquifers, aims at simulating the water level in observation wells from fracture and matrix water heads outputed by dual-continuum hydrogeological models. 
+# Program for Observation Well Representation in Fractured Aquifer Dual-continuum Simulations (POWeR-FADS)
+This repository hosts the source code and example test cases for the Program for Observation Well Representation in Fractured Aquifer Dual-continuum Simulations (POWeR-FADS). This program, intended for use in the context of porous fractured aquifers, aims at simulating the water level in observation wells from fracture and matrix water heads outputed by dual-continuum hydrogeological models. 
 
 It is described more thoroughly in Jeannot et al.(submitted).
 If you happen to experience bugs or difficulties in running the code, report it to bjeannot.pro@gmail.com
 
 # I.Introduction
-The non-intrusive dual-media observation well representation (POWeR-FADS) model postprocesses time series of total water head respectively in the fracture and in the matrix media at the vicinitude of an observation well, as simulated by any planar bidimensional dual-continuum hydrogoelogical model, to simulate the water level in the observation well. POWeR-FADS performs its calculations in a physically based way, by calculating exchange fluxes between the well and each of the two media as a function of head gradients, and introduces as a parameter the altitude of lowest interception of the fracture network by the well. This is a low-parameterized way to describe in the simulations the level of connection between the well and the fractures.
+POWeR-FADS postprocesses time series of total water head respectively in the fracture and in the matrix media at the vicinitude of an observation well, as simulated by any planar bidimensional dual-continuum hydrogoelogical model, to simulate the water level in the observation well. POWeR-FADS performs its calculations in a physically based way, by calculating exchange fluxes between the well and each of the two media as a function of head gradients, and introduces as a parameter the altitude of lowest interception of the fracture network by the well. This is a low-parameterized way to describe in the simulations the level of connection between the well and the fractures.
 The model is expected to enable researchers better interpret observation wells data of fractured porous aquifers when using bidimensional dual-media hydrogeological models as, it provides a readily available physics-based alternative to the common practice of simply assuming that the well is representative only of fracture water head. 
 
 # **II.	Conceptual model**
