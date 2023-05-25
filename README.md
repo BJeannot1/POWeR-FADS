@@ -6,14 +6,14 @@ If you happen to experience bugs or difficulties in running the code, report it 
 
 # I.Introduction
 POWeR-FADS postprocesses time series of total water head respectively in the fracture and in the matrix media at the vicinitude of an observation well, as simulated by any planar bidimensional dual-continuum hydrogoelogical model, to simulate the water level in the observation well. POWeR-FADS performs its calculations in a physically based way, by calculating exchange fluxes between the well and each of the two media as a function of head gradients, and introduces as a parameter the altitude of lowest interception of the fracture network by the well. This is a low-parameterized way to describe in the simulations the level of connection between the well and the fractures.
-The model is expected to enable researchers better interpret observation wells data of fractured porous aquifers when using bidimensional dual-media hydrogeological models as, it provides a readily available physics-based alternative to the common practice of simply assuming that the well is representative only of fracture water head. 
+The model is expected to enable researchers better interpret observation wells data of fractured porous aquifers when using bidimensional dual-media hydrogeological models, as it provides a readily available physics-based alternative to the common practice of simply assuming that the well is representative only of fracture water head. 
 
 # **II.	Conceptual model**
 ![fig1](https://user-images.githubusercontent.com/67539849/194730193-9fae40c2-eaa4-4e1c-92e3-ce047f77d1d0.png)
 
 Fig 1. Conceptual model used in POWeR-FADS for an observation well in a fractured aquifer. Rin,   Rout  and Rdrill are respectively the inner, outer, and drill radius of the observation well. The yellow dots represent the soil of porosity ωdrill used to fill the space between Rout  and Rdrill . ztube and zsurf are respectively the altitude of the top of the well and of the surface. The red plain lines represent the fracture network. Among those, the bold lines represent the saturated portion of the fracture network. The brown and blue backgrounds represent respectively the saturated and unsaturated zones of the matrix. zm and zf are the water heads respectively in the matrix and in the fracture network, and zw is the water level in the well. zbot_m and zbot_f are respectively the altitude of the bottom of the well and the altitude of the lowest interception of the well by the fracture network. The absence of any direct water exchanges between the fracture network and the well below zbot_f has a significant impact on zw. For example, for the represented situation where both zm and zf are below zbot_f, assuming zm and zf are constant in time, then at steady state zw is equal to zm.
 
-For more details on the conceptual model and its undelrying hypotheses, and for explanations about its implementation in the numerical model underpinning NIDMOWR, see Jeannot et al(submitted)
+For more details on the conceptual model and its undelrying hypotheses, and for explanations about its implementation in the numerical model underpinning POWeR-FADS, see Jeannot et al(submitted)
 
 # **III.	How to use POWeR-FADS**
   ## 1. Requirements
