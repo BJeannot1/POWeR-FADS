@@ -13,7 +13,7 @@ The model is expected to enable researchers better interpret observation wells d
 
 Fig 1. Conceptual model used in POWeR-FADS for an observation well in a fractured aquifer. Rin,   Rout  and Rdrill are respectively the inner, outer, and drill radius of the observation well. The yellow dots represent the soil of porosity ωdrill used to fill the space between Rout  and Rdrill . ztube and zsurf are respectively the altitude of the top of the well and of the surface. The red plain lines represent the fracture network. Among those, the bold lines represent the saturated portion of the fracture network. The brown and blue backgrounds represent respectively the saturated and unsaturated zones of the matrix. zm and zf are the water heads respectively in the matrix and in the fracture network, and zw is the water level in the well. zbot_m and zbot_f are respectively the altitude of the bottom of the well and the altitude of the lowest interception of the well by the fracture network. The absence of any direct water exchanges between the fracture network and the well below zbot_f has a significant impact on zw. For example, for the represented situation where both zm and zf are below zbot_f, assuming zm and zf are constant in time, then at steady state zw is equal to zm.
 
-For more details on the conceptual model and its undelrying hypotheses, and for explanations about its implementation in the numerical model underpinning POWeR-FADS, see Jeannot et al(submitted)
+For more details on the conceptual model and its undelrying hypotheses, and for explanations about its implementation in the numerical model underpinning POWeR-FADS, see Jeannot et al(submitted).
 
 # **III.	How to use POWeR-FADS**
   ## 1. Requirements
