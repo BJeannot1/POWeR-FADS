@@ -15,7 +15,7 @@ The model is expected to enable researchers better interpret observation wells d
 
 Fig 1. Conceptual model used in POWeR-FADS for an observation well in a fractured aquifer. Rin,   Rout  and Rdrill are respectively the inner, outer, and drill radius of the observation well. The yellow dots represent the soil of porosity ωdrill used to fill the space between Rout  and Rdrill . ztube and zsurf are respectively the altitude of the top of the well and of the surface. The red plain lines represent the fracture network. Among those, the bold lines represent the saturated portion of the fracture network. The brown and blue backgrounds represent respectively the saturated and unsaturated zones of the matrix. zm and zf are the water heads respectively in the matrix and in the fracture network, and zw is the water level in the well. zbot_m and zbot_f are respectively the altitude of the bottom of the well and the altitude of the lowest interception of the well by the fracture network. The absence of any direct water exchanges between the fracture network and the well below zbot_f has a significant impact on zw. For example, for the represented situation where both zm and zf are below zbot_f, assuming zm and zf are constant in time, then at steady state zw is equal to zm.
 
-For more details on the conceptual model and its undelrying hypotheses, and for explanations about its implementation in the numerical model underpinning POWeR-FADS, see Jeannot et al(submitted).
+For more details on the conceptual model and its undelrying hypotheses, and for explanations about its implementation in the numerical model underpinning POWeR-FADS, see Jeannot et al(2023).
 
 # **III.	How to use POWeR-FADS**
   ## 1. Requirements
@@ -31,7 +31,7 @@ For more details on the conceptual model and its undelrying hypotheses, and for 
     
     In the above command, "testcase" is the name of a folder containing an "Inputs" subfolder. The "Inputs" subfolder contains input files corresponding to the test case, as described below. An "Outptus" subfolder will be created in the "testcase" folder as a result of running POWeR-FADS, and outputs of POWeR-FADS will be saved in this subfolder.
     
-  For example : "python POWeR-FADS.py Test_case_1" and "python POWeR-FADS.py Test_case_2"  simulate respectively the synthetic test cases 1 and 2 presented in Jeannot et al.(submitted). It is also possible to deal with several test cases in only one call to POWeR-FADS, by writing several command line arguments in sequence when calling the program. Example : "python POWeR-FADS.py Test_case_1 Test_case_2"
+  For example : "python POWeR-FADS.py Test_case_1" and "python POWeR-FADS.py Test_case_2"  simulate respectively the synthetic test cases 1 and 2 presented in Jeannot et al.(2023). It is also possible to deal with several test cases in only one call to POWeR-FADS, by writing several command line arguments in sequence when calling the program. Example : "python POWeR-FADS.py Test_case_1 Test_case_2"
     
   ## 3. Description of input files
 ### zm_zf.txt
@@ -53,7 +53,7 @@ The first column is the time in seconds, the second column is total water head i
 - ztube(m): altitude of the top of the tube of the well
 - zsurf(m): altitude of the surface
 - zbot_f(m) : altitude of lowest interception of the fracture network by the well
-- zbot_m(m) : altitude of lthe bottom of the well
+- zbot_m(m) : altitude of the bottom of the well
 - rin(m) : inner radius of the tube
 - rout(m) : outer radius of the tube
 - rdrill(m) : drill radius of the well
