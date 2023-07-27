@@ -88,7 +88,7 @@ Example for test case 1 :
 ![Output_graph](https://user-images.githubusercontent.com/67539849/194750310-a5e8e68d-8516-4a3b-94db-c9531fb7f190.png)
 
 # Cited Reference
-Jeannot, B., Schaper, L., & Habets, F. (2023). Water level in observation wells simulated from fracture and matrix water heads outputted by dual-continuum hydrogeological models: POWeR-FADS. _Water Resources Research_,59(7). https://doi.org/10.1029/2023WR034652
+Jeannot, B., Schaper, L., & Habets, F. (2023). Water level in observation wells simulated from fracture and matrix water heads outputted by dual-continuum hydrogeological models: POWeR-FADS. _Water Resources Research_, 59(7). https://doi.org/10.1029/2023WR034652
 
 # Disclaimer
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
