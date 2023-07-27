@@ -1,7 +1,9 @@
 # Program for Observation Well Representation in Fractured Aquifer Dual-continuum Simulations
 This repository hosts the source code and example test cases for the Program for Observation Well Representation in Fractured Aquifer Dual-continuum Simulations (POWeR-FADS). This program, intended for use in the context of porous fractured aquifers, aims at simulating the water level in observation wells from fracture and matrix water heads outputed by dual-continuum hydrogeological models. 
 
-It is described more thoroughly in Jeannot et al.(submitted).
+It is described more thoroughly in Jeannot et al.(2023), which is freely readable at the following link : 
+https://onlinelibrary.wiley.com/share/author/3YZ45RUWQMVHZN8BGJVV?target=10.1029/2023WR034652
+
 If you happen to experience bugs or difficulties in running the code, report it to bjeannot.pro@gmail.com
 
 # I.Introduction
@@ -84,6 +86,9 @@ Panel (b) : Infiltrated flux from the fracture network to the well (in red) and 
 Example for test case 1 :
 
 ![Output_graph](https://user-images.githubusercontent.com/67539849/194750310-a5e8e68d-8516-4a3b-94db-c9531fb7f190.png)
+
+# Cited Reference
+Jeannot, B., Schaper, L., & Habets, F. (2023). Water level in observation wells simulated from fracture and matrix water heads outputted by dual-continuum hydrogeological models: POWeR-FADS. _Water Resources Research_,59(7). https://doi.org/10.1029/2023WR034652
 
 # Disclaimer
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
