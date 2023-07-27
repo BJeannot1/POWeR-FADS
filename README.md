@@ -4,7 +4,7 @@ This repository hosts the source code and example test cases for the Program for
 It is described more thoroughly in Jeannot et al.(2023), which is freely readable at the following link : 
 https://onlinelibrary.wiley.com/share/author/3YZ45RUWQMVHZN8BGJVV?target=10.1029/2023WR034652
 
-If you happen to experience bugs or difficulties in running the code, report it to bjeannot.pro@gmail.com
+If you happen to experience bugs or difficulties in running the code, please report it to bjeannot.pro@gmail.com
 
 # I.Introduction
 POWeR-FADS postprocesses time series of total water head respectively in the fracture and in the matrix media at the vicinitude of an observation well, as simulated by any planar bidimensional dual-continuum hydrogoelogical model, to simulate the water level in the observation well. POWeR-FADS performs its calculations in a physically based way, by calculating exchange fluxes between the well and each of the two media as a function of head gradients, and introduces as a parameter the altitude of lowest interception of the fracture network by the well. This is a low-parameterized way to describe in the simulations the level of connection between the well and the fractures.
